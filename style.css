@@ -723,8 +723,12 @@ input::placeholder {
     align-items: center;
     border-radius: 8px;
     color: white;
+    transition: all 0.3s ease;
 }
-
+.contries_name:hover{
+    background-color: #01DBCA;
+    color: black;
+}
 .contries input {
     width: 300px;
     height: 40px;
@@ -736,6 +740,7 @@ input::placeholder {
     box-shadow: none;
     background-color: #00213C;
     backdrop-filter: blur(5px);
+    color: white;
 }
 
 .contries svg {
@@ -782,8 +787,8 @@ input::placeholder {
     align-items: center;
     color: white;
     border-radius: 8px;
+    transition: all 0.3s ease;
 }
-
 .data_2 {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -867,8 +872,13 @@ input::placeholder {
     padding: 20px;
     border-radius: 12px;
     font-size: 14px;
+    transition: all 0.3s ease;
 }
-
+.trips_item:hover{
+    transform: translateY(-5px);
+    background-color: white;
+    color: black;
+}
 .trip_card {
     width: 100%;
     height: 500px;
@@ -1260,6 +1270,10 @@ input::placeholder {
     font-size: 14px;
     margin-top: 40px;
     border-radius: 16px;
+    transition: all 0.3s ease;
+}
+.join_bottum:hover{
+    background-color: #fff;
 }
 .join_bottum svg{
     width: 20px;
@@ -1278,12 +1292,12 @@ input::placeholder {
 .footer_item{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-#footer_1{
+#footer_3{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#footer_1 img{
+#footer_3 img{
     width: 300px;
 }
 #footer_2{
@@ -1302,4 +1316,27 @@ input::placeholder {
     justify-content: center;
     align-items: start;
     gap: 20px;
+}
+#footer_1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+.contact_list_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.contact_list{
+    color: rgba(255, 255, 255, 0.8);
+    list-style-type: none;
+    margin-left: 20px;
+}
+.contact_list_group h1{
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
